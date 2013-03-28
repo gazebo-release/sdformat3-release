@@ -1,4 +1,4 @@
-Source: sdf
+Source: sdformat
 Standards-Version: 3.9.3
 Maintainer: Nate Koenig <nate@osrfoundation.org>
 Section: devel
@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake, debhelper (>= 7.0.50~), libboost-system-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-iostreams-dev, libtinyxml-dev
 Homepage: http://gazebosim.org
 
-Package: sdf
+Package: sdformat
 Architecture: any
 Section: devel
 Priority: extra
@@ -14,11 +14,11 @@ Depends: libtinyxml2.6.2, libboost-system1.49.0, libboost-filesystem1.49.0, libb
 Description: Simulation Description Format (SDF) parser and description files.
 Homepage: http://gazebosim.org
 
-Package: sdf-dbg
+Package: sdformat-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-    sdf (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for sdf
- This package contains the debugging symbols for sdf
+    sdformat (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for sdformat
+ This package contains the debugging symbols for sdformat

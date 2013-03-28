@@ -14,7 +14,7 @@ export DH_OPTIONS=-v
 	dh  $@
 
 override_dh_auto_install:
-	dh_auto_install --destdir=debian/sdf
+	dh_auto_install --destdir=debian/sdformat
 
 override_dh_auto_test:
 	echo -- Skipping tests
@@ -22,4 +22,4 @@ override_dh_auto_test:
 	true
 
 override_dh_strip:
-	dh_strip --dbg-package=sdf-dbg
+	dh_strip --dbg-package=sdformat-dbg
