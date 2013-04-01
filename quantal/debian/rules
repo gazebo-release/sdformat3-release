@@ -13,13 +13,7 @@ export DH_OPTIONS=-v
 %:
 	dh  $@
 
-override_dh_auto_install:
-	dh_auto_install --destdir=debian/sdformat-nightly
-
 override_dh_auto_test:
 	echo -- Skipping tests
 	#dh_auto_test
 	true
-
-override_dh_strip:
-	dh_strip --dbg-package=sdformat-nightly-dbg

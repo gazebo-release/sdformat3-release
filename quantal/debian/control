@@ -13,12 +13,3 @@ Priority: extra
 Depends: libtinyxml2.6.2, libboost-system1.49.0, libboost-filesystem1.49.0, libboost-program-options1.49.0, libboost-regex1.49.0, libboost-iostreams1.49.0, ${misc:Depends}
 Description: Simulation Description Format (SDF) parser and description files.
 Homepage: http://gazebosim.org
-
-Package: sdformat-nightly-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends:
-    sdformat-nightly (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for sdformat
- This package contains the debugging symbols for sdformat
