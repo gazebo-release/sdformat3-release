@@ -1,24 +1,25 @@
-Source: sdf-nightly
-Standards-Version: 3.9.3
-Maintainer: Nate Koenig <nate@osrfoundation.org>
-Section: devel
-Priority: extra
-Build-Depends: cmake, debhelper (>= 7.0.50~), libboost-system-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-iostreams-dev, libtinyxml-dev
-Homepage: http://gazebosim.org
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
 
-Package: sdf-nightly
-Architecture: any
-Section: devel
-Priority: extra
-Depends: libtinyxml2.6.2, libboost-system1.46.1, libboost-filesystem1.46.1, libboost-program-options1.46.1, libboost-regex1.46.1, libboost-iostreams1.46.1, ${misc:Depends}
-Description: Simulation Description Format (SDF) parser and description files.
-Homepage: http://gazebosim.org
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+export DH_OPTIONS=-v
 
-Package: sdf-nightly-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends:
-    sdf-nightly (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for sdf
- This package contains the debugging symbols for sdf
+%:
+	dh  $@
+
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/sdf-nightly
+
+override_dh_auto_test:
+	echo -- Skipping tests
+	#dh_auto_test
+	true
+
+override_dh_strip:
+	dh_strip --dbg-package=sdf-nightly-dbg
