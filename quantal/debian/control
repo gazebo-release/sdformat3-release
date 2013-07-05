@@ -1,4 +1,4 @@
-Source: sdf
+Source: sdformat
 Standards-Version: 3.9.3
 Maintainer: Nate Koenig <nate@osrfoundation.org>
 Section: devel
@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake, debhelper (>= 7.0.50~), libboost-system-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-iostreams-dev, libtinyxml-dev
 Homepage: http://gazebosim.org
 
-Package: sdf
+Package: sdformat
 Architecture: any
 Section: devel
 Priority: extra
