@@ -1,4 +1,11 @@
+sdf (1.4.1-1~precise) precise; urgency=high
+ 
+  * Release 1.4.1-1
+ 
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 05 Jul 2013 09:42:00 -0700
+ 
 sdf (1.4.0-1~precise) precise; urgency=high
+
  
   * Release 1.4.0-1
  
