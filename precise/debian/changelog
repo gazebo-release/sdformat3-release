@@ -1,3 +1,9 @@
+sdformat (1.4.4-1~precise) precise; urgency=high
+ 
+  * Release 1.4.4-1
+ 
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Wed, 17 Jul 2013 09:42:00 -0700
+ 
 sdformat (1.4.3-1~precise) precise; urgency=high
  
   * Release 1.4.3-1
