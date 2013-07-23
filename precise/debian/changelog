@@ -1,3 +1,9 @@
+sdformat (1.4.5-1~precise) precise; urgency=high
+ 
+  * Release 1.4.5-1
+ 
+ -- Ian Chen <ichen@osrfoundation.org>  Wed, 23 Jul 2013 09:42:00 -0700
+
 sdformat (1.4.4-1~precise) precise; urgency=high
  
   * Release 1.4.4-1
