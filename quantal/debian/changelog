@@ -1,3 +1,9 @@
+sdformat (1.4.7-1~quantal) quantal; urgency=high
+ 
+  * Release 1.4.7-1
+ 
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 22 Aug 2013 10:30:00 -0700
+
 sdformat (1.4.6-1~quantal) quantal; urgency=high
  
   * Release 1.4.6-1
