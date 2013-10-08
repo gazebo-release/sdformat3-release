@@ -11,7 +11,7 @@ Build-Depends: cmake
                libboost-regex-dev
                libboost-iostreams-dev
                libtinyxml-dev
-Homepage: http://gazebosim.org
+Homepage: http://sdformat.org
 
 Package: sdformat
 Architecture: any
@@ -25,4 +25,6 @@ Depends: libtinyxml2.6.2
          libboost-iostreams1.46.1
  ${misc:Depends}
 Description: Simulation Description Format (SDF) parser and description files.
-Homepage: http://gazebosim.org
+Conflicts: sdformat-prerelease, sdformat-nightly
+Provides: sdformat-provider
+Homepage: http://sdformat.org
