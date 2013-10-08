@@ -1,3 +1,9 @@
+sdformat (1.4.9-1~quantal) quantal; urgency=high
+ 
+  * Release 1.4.9-1
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 08 Oct 2013 04:46:00 -0700
+
 sdformat (1.4.8-1~quantal) quantal; urgency=high
  
   * Release 1.4.8-1
