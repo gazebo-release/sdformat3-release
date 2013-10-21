@@ -1,5 +1,0 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/*
-usr/share/sdformat/cmake/*
-usr/share/doc/*

@@ -10,13 +10,14 @@
 export DH_VERBOSE=1
 export DH_OPTIONS=-v
 
+.PHONY: override_dh_strip
+
 %:
-	dh $@ --parallel
+	dh $@ --parallel --with pkgkde-symbolshelper
 
 override_dh_auto_test:
 	echo -- Skipping tests
 	true
 
-.PHONY: override_dh_strip
 override_dh_strip:
 	dh_strip -a --dbg-package=libsdformat1-dbg
