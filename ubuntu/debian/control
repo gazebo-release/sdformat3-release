@@ -23,7 +23,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Conflicts: libsdformat1-prerelease, 
-           libsdformat1-nightly
+           libsdformat1-nightly,
+           sdformat,
+           sdformat-prerelease,
+           sdformat-nightly
 Provides: libsdformat1-provider
 Description: Simulation Description Format (SDF) parser and description files.
  .
@@ -41,7 +44,10 @@ Depends: libboost-system-dev,
          ${misc:Depends}
 Multi-Arch: same
 Conflicts: libsdformat-dev-prerelease, 
-           libsdformat-dev-nightly
+           libsdformat-dev-nightly,
+           sdformat,
+           sdformat-prerelease,
+           sdformat-nightly
 Provides: libsdformat-dev-provider
 Description: Simulation Description Format (SDF) parser and description files.
  .
