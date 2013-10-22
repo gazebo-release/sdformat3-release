@@ -1,1 +1,2 @@
-../../ubuntu/debian/libsdformat1.install
+usr/lib/*.so.*
+usr/share/sdformat/*/*.sdf
