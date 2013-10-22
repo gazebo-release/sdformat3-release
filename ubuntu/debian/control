@@ -29,8 +29,13 @@ Conflicts: libsdformat1-prerelease,
            sdformat-nightly
 Provides: libsdformat1-provider
 Description: Simulation Description Format (SDF) parser and description files.
- .
- This package gathers shared libraries used
+ SDF is an XML file format that describes environments, objects, and robots
+ in a manner suitable for robotic applications. SDF is capable of representing
+ and describing different physic engines, lighting properties, terrain, static
+ or dynamic objects, and articulated robots with various sensors, and acutators.
+ The format of SDF is also described by XML, which facilitates updates and
+ allows conversion from previous versions. A parser is also contained within
+ this package that reads SDF files and returns a C++ interface.
 
 Package: libsdformat-dev
 Architecture: any
@@ -50,10 +55,14 @@ Conflicts: libsdformat-dev-prerelease,
            sdformat-nightly
 Provides: libsdformat-dev-provider
 Description: Simulation Description Format (SDF) parser and description files.
- .
- This package contains development files (headers, shared library
- symbolic link and pkg-config file).
-
+ SDF is an XML file format that describes environments, objects, and robots
+ in a manner suitable for robotic applications. SDF is capable of representing
+ and describing different physic engines, lighting properties, terrain, static
+ or dynamic objects, and articulated robots with various sensors, and acutators.
+ The format of SDF is also described by XML, which facilitates updates and
+ allows conversion from previous versions. A parser is also contained within
+ this package that reads SDF files and returns a C++ interface.
+ 
 Package: libsdformat1-dbg
 Architecture: any
 Section: debug
@@ -63,5 +72,10 @@ Depends:
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser and description files.
- .
- This package contains the debugging symbols for libcdd0d.
+ SDF is an XML file format that describes environments, objects, and robots
+ in a manner suitable for robotic applications. SDF is capable of representing
+ and describing different physic engines, lighting properties, terrain, static
+ or dynamic objects, and articulated robots with various sensors, and acutators.
+ The format of SDF is also described by XML, which facilitates updates and
+ allows conversion from previous versions. A parser is also contained within
+ this package that reads SDF files and returns a C++ interface.
