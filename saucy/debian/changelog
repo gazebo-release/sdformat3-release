@@ -1,3 +1,8 @@
+sdformat (1.4.9-2~saucy) saucy; urgency=high
+ 
+  * Release 1.4.9-2. Use libboost-1.49.
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 23 Oct 2013 06:46:00 -0700
 sdformat (1.4.9-1~saucy) saucy; urgency=high
  
   * Release 1.4.9-1
