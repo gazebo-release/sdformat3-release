@@ -1,3 +1,10 @@
+sdformat (1.4.9-3~saucy) saucy; urgency=high
+ 
+  * Release 1.4.9-3. libboost-1.49 won't work with player. Use 1.53 again and
+    fix gazebo to depends on new ogre.
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 23 Oct 2013 06:46:00 -0700
+
 sdformat (1.4.9-2~saucy) saucy; urgency=high
  
   * Release 1.4.9-2. Use libboost-1.49.
