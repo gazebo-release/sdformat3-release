@@ -10,7 +10,7 @@ Build-Depends: cmake,
                libboost-program-options1.49-dev,
                libboost-regex1.49-dev,
                libboost-iostreams1.49-dev,
-               libtinyxml1.49-dev
+               libtinyxml-dev
 Homepage: http://sdformat.org
 
 Package: sdformat
