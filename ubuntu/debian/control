@@ -28,7 +28,7 @@ Conflicts: libsdformat1-prerelease,
            sdformat-prerelease,
            sdformat-nightly
 Provides: libsdformat1-provider
-Description: Simulation Description Format (SDF) parser and description files.
+Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
  and describing different physic engines, lighting properties, terrain, static
@@ -54,7 +54,7 @@ Conflicts: libsdformat-dev-prerelease,
            sdformat-prerelease,
            sdformat-nightly
 Provides: libsdformat-dev-provider
-Description: Simulation Description Format (SDF) parser and description files.
+Description: Simulation Description Format (SDF) parser - Development files
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
  and describing different physic engines, lighting properties, terrain, static
@@ -71,7 +71,7 @@ Depends:
      libsdformat1 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
-Description: Simulation Description Format (SDF) parser and description files.
+Description: Simulation Description Format (SDF) parser - Debugging symbols
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
  and describing different physic engines, lighting properties, terrain, static
