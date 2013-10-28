@@ -37,7 +37,7 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat-nightly-dev
+Package: libsdformat-dev-nightly
 Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
@@ -63,7 +63,7 @@ Description: Simulation Description Format (SDF) parser - Development files
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
  
-Package: libsdformat1-dbg
+Package: libsdformat1-dbg-nightly
 Architecture: any
 Section: debug
 Priority: extra
