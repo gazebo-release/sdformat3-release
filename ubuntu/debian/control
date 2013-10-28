@@ -27,6 +27,8 @@ Conflicts: libsdformat1-prerelease,
            sdformat,
            sdformat-prerelease,
            sdformat-nightly
+Replaces: sdformat-nightly
+Breaks: sdformat-nightly
 Provides: libsdformat1-provider
 Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
@@ -53,6 +55,8 @@ Conflicts: libsdformat-dev-prerelease,
            sdformat,
            sdformat-prerelease,
            sdformat-nightly
+Replaces: sdformat-nightly
+Breaks: sdformat-nightly
 Provides: libsdformat-dev-provider
 Description: Simulation Description Format (SDF) parser - Development files
  SDF is an XML file format that describes environments, objects, and robots
