@@ -24,5 +24,10 @@ override_dh_auto_configure:
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 	    -DCMAKE_INSTALL_LIBDIR:PATH=lib/$(DEB_HOST_MULTIARCH)
 
+# Tests are broken without a installed copy of sdformat.
+# see: https://bitbucket.org/osrf/sdformat/issue/35 
+override_dh_auto_test:
+	true
+
 override_dh_strip:
 	dh_strip -a --dbg-package=libsdformat1-dbg
