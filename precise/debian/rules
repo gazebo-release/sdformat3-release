@@ -15,8 +15,8 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 debian/%.install: debian/%.install.in
 	sed 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/g' $< > $@
 
-override_dh_auto_install: debian/libsdformat1.install \
-                          debian/libsdformat-dev.install
+override_dh_auto_install: debian/libsdformat1-prerelease.install \
+                          debian/libsdformat-dev-prerelease.install
 	dh_auto_install
 
 override_dh_auto_configure:
@@ -30,4 +30,4 @@ override_dh_auto_test:
 	true
 
 override_dh_strip:
-	dh_strip -a --dbg-package=libsdformat1-dbg
+	dh_strip -a --dbg-package=libsdformat1-dbg-prerelease
