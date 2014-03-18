@@ -5,7 +5,6 @@ Section: science
 Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
-               pkg-kde-tools,
                libboost-system-dev,
                libboost-filesystem-dev,
                libboost-program-options-dev,
