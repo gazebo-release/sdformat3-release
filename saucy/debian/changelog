@@ -1,3 +1,29 @@
+sdformat (1.4.11-1~saucy) saucy; urgency=high
+ 
+  * Release 1.4.11-1
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Sat, 23 Nov 2013 11:48:00 -0700
+
+sdformat (1.4.10-3~saucy) saucy; urgency=high
+ 
+  * Fix file name in in -dev package
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 10 Oct 2013 03:46:00 -0700
+
+sdformat (1.4.10-2~saucy) saucy; urgency=high
+ 
+  * Release 1.4.10-2
+  * Fix previous release due to missing debian files
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 10 Oct 2013 03:46:00 -0700
+
+sdformat (1.4.10-1~saucy) saucy; urgency=high
+ 
+  * Release 1.4.10-1
+  * Split sdformat package to follow debian guidelines
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 09 Oct 2013 03:46:00 -0700
+
 sdformat (1.4.9-3~saucy) saucy; urgency=high
  
   * Release 1.4.9-3. libboost-1.49 won't work with player. Use 1.53 again and
