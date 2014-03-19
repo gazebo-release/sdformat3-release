@@ -21,7 +21,9 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Conflicts: libsdformat2, 
+Conflicts: libsdformat1,
+           libsdformat1-nightly,
+           libsdformat2, 
            libsdformat2-nightly,
            sdformat,
            sdformat-prerelease,
