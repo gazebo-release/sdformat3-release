@@ -1,9 +1,3 @@
-sdformat-prerelease (2.0.0-2~quantal) quantal; urgency=low
-
-  * sdformat-prerelease 2.0.0-2 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 19 Mar 2014 20:24:13 +0100
-
 sdformat-prerelease (2.0.0-1~quantal) quantal; urgency=low
 
   * sdformat-prerelease 2.0.0-1 release
