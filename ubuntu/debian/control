@@ -48,7 +48,7 @@ Depends: libboost-system-dev,
          libsdformat2-prerelease (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Conflicts: libsdformat-dev-prerelease, 
+Conflicts: libsdformat-dev, 
            libsdformat-dev-nightly,
            sdformat,
            sdformat-prerelease,
