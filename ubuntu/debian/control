@@ -45,7 +45,7 @@ Depends: libboost-system-dev,
          libboost-regex-dev,
          libboost-iostreams-dev,
          libtinyxml-dev,
-         libsdformat1 (= ${binary:Version}),
+         libsdformat1-prerelease (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Conflicts: libsdformat-dev-prerelease, 
