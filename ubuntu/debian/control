@@ -38,7 +38,7 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat-dev-prerelease
+Package: libsdformat2-dev-prerelease
 Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
@@ -52,10 +52,11 @@ Depends: libboost-system-dev,
 Multi-Arch: same
 Conflicts: libsdformat-dev, 
            libsdformat-dev-nightly,
+           libsdformat-dev-prerelease,
            sdformat,
            sdformat-prerelease,
            sdformat-nightly
-Provides: libsdformat-dev-provider
+Provides: libsdformat2-dev-provider
 Description: Simulation Description Format (SDF) parser - Development files
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
