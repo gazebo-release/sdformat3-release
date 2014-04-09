@@ -16,7 +16,7 @@ debian/%.install: debian/%.install.in
 	sed 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/g' $< > $@
 
 override_dh_auto_install: debian/libsdformat2-prerelease.install \
-                          debian/libsdformat-dev-prerelease.install
+                          debian/libsdformat2-dev-prerelease.install
 	dh_auto_install
 
 override_dh_auto_configure:
