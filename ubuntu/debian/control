@@ -1,4 +1,4 @@
-Source: sdformat-prerelease
+Source: sdformat
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -15,7 +15,7 @@ Vcs-Browser: https://bitbucket.org/osrf/sdformat-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat-release
 Homepage: http://sdformat.org
 
-Package: libsdformat2-prerelease
+Package: libsdformat2
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -23,7 +23,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Conflicts: libsdformat1,
            libsdformat1-nightly,
-           libsdformat2, 
+           libsdformat2-prerelease, 
            libsdformat2-nightly,
            sdformat,
            sdformat-prerelease,
@@ -38,7 +38,7 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat2-dev-prerelease
+Package: libsdformat2-dev
 Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
@@ -47,12 +47,13 @@ Depends: libboost-system-dev,
          libboost-regex-dev,
          libboost-iostreams-dev,
          libtinyxml-dev,
-         libsdformat2-prerelease (= ${binary:Version}),
+         libsdformat2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Conflicts: libsdformat-dev, 
            libsdformat-dev-nightly,
            libsdformat-dev-prerelease,
+           libsdformat2-dev-prerelease,
            sdformat,
            sdformat-prerelease,
            sdformat-nightly
@@ -66,12 +67,12 @@ Description: Simulation Description Format (SDF) parser - Development files
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
  
-Package: libsdformat2-dbg-prerelease
+Package: libsdformat2-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libsdformat2-prerelease (= ${binary:Version}),
+     libsdformat2 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Debugging symbols
