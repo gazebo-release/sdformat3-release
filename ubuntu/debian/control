@@ -1,11 +1,10 @@
-Source: sdformat
+Source: sdformat-prerelease
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
-               pkg-kde-tools,
                libboost-system-dev,
                libboost-filesystem-dev,
                libboost-program-options-dev,
@@ -16,18 +15,20 @@ Vcs-Browser: https://bitbucket.org/osrf/sdformat-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat-release
 Homepage: http://sdformat.org
 
-Package: libsdformat1
+Package: libsdformat2-prerelease
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Conflicts: libsdformat1-prerelease, 
+Conflicts: libsdformat1,
            libsdformat1-nightly,
+           libsdformat2, 
+           libsdformat2-nightly,
            sdformat,
            sdformat-prerelease,
            sdformat-nightly
-Provides: libsdformat1-provider
+Provides: libsdformat2-provider
 Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
@@ -37,7 +38,7 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat-dev
+Package: libsdformat2-dev-prerelease
 Architecture: any
 Section: libdevel
 Depends: libboost-system-dev,
@@ -46,15 +47,16 @@ Depends: libboost-system-dev,
          libboost-regex-dev,
          libboost-iostreams-dev,
          libtinyxml-dev,
-         libsdformat1 (= ${binary:Version}),
+         libsdformat2-prerelease (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Conflicts: libsdformat-dev-prerelease, 
+Conflicts: libsdformat-dev, 
            libsdformat-dev-nightly,
+           libsdformat-dev-prerelease,
            sdformat,
            sdformat-prerelease,
            sdformat-nightly
-Provides: libsdformat-dev-provider
+Provides: libsdformat2-dev-provider
 Description: Simulation Description Format (SDF) parser - Development files
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
@@ -64,12 +66,12 @@ Description: Simulation Description Format (SDF) parser - Development files
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
  
-Package: libsdformat1-dbg
+Package: libsdformat2-dbg-prerelease
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libsdformat1 (= ${binary:Version}),
+     libsdformat2-prerelease (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Debugging symbols

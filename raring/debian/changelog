@@ -2,14 +2,7 @@ sdformat (1.4.11-1~raring) raring; urgency=high
  
   * Release 1.4.11-1
  
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Sat, 23 Nov 2013 11:48:00 -0700
-
-sdformat (1.4.10-1~raring) raring; urgency=high
- 
-  * Release 1.4.10-1
-  * Split sdformat package to follow debian guidelines
- 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 09 Oct 2013 03:46:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 25 Nov 2013 08:46:00 -0700
 
 sdformat (1.4.9-1~raring) raring; urgency=high
  
