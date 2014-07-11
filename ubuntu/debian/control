@@ -1,4 +1,4 @@
-Source: sdformat
+Source: sdformat2
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -12,8 +12,8 @@ Build-Depends: cmake,
                libboost-regex-dev,
                libboost-iostreams-dev,
                libtinyxml-dev,
-Vcs-Browser: https://bitbucket.org/osrf/sdformat-release
-Vcs-Hg: https://bitbucket.org/osrf/sdformat-release
+Vcs-Browser: https://bitbucket.org/osrf/sdformat2-release
+Vcs-Hg: https://bitbucket.org/osrf/sdformat2-release
 Homepage: http://sdformat.org
 
 Package: libsdformat2
