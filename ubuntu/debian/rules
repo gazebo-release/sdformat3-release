@@ -22,4 +22,4 @@ override_dh_auto_test:
 	true
         
 override_dh_strip:
-	dh_strip -a --dbg-package=libsdformat2-dbg
+	dh_strip -a --dbg-package=libsdformat2-dbg-prerelease
