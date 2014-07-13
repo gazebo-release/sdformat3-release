@@ -112,7 +112,7 @@ Description: Simulation Description Format (SDF) parser - Debugging symbols
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: sdformat2-doc
+Package: sdformat2-doc-prerelease
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}, libjs-jquery
