@@ -1,54 +1,65 @@
-sdformat-prerelease (2.0.3-1~raring) raring; urgency=low
+sdformat (2.0.1-1~raring) raring; urgency=low
 
-  * sdformat-prerelease 2.0.3-1 release
+  * sdformat 2.0.1-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 11 Apr 2014 19:02:50 +0200
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 11 JUl 2014 09:00:24 +0700
 
-sdformat-prerelease (2.0.2-1~raring) raring; urgency=low
+sdformat (2.0.0-1~raring) raring; urgency=low
 
-  * sdformat-prerelease 2.0.2-1 release
+  * sdformat 2.0.0-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 10 Apr 2014 17:08:08 +0200
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 11 Apr 2014 20:00:24 +0200
 
-sdformat-prerelease (2.0.1-3~raring) raring; urgency=low
-
-  * sdformat-prerelease 2.0.1-3 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 09 Apr 2014 03:04:13 +0200
-
-sdformat-prerelease (2.0.1-2~raring) raring; urgency=low
-
-  * sdformat-prerelease 2.0.1-2 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 19 Mar 2014 21:46:49 +0100
-
-sdformat-prerelease (2.0.1-1~raring) raring; urgency=low
-
-  * sdformat-prerelease 2.0.1-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 19 Mar 2014 20:30:00 +0100
-
-sdformat-prerelease (2.0.0-1~raring) raring; urgency=low
-
-  * sdformat-prerelease 2.0.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 19 Mar 2014 13:09:00 +0100
-
-sdformat-prerelease (1.5.0-1~raring) raring; urgency=high
+sdformat (1.4.11-1~raring) raring; urgency=high
  
-  * Pre-release 1.5.0-1
+  * Release 1.4.11-1
  
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 18 Oct 2013 19:55:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 25 Nov 2013 08:46:00 -0700
 
-sdformat-prerelease (1.4.9-2~raring) raring; urgency=high
+sdformat (1.4.9-1~raring) raring; urgency=high
  
-  * Pre-release 1.4.9-2
+  * Release 1.4.9-1
  
- -- Nate Koenig <nate@osrfoundation.org>  Wed, 01 Oct 2013 19:55:00 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 08 Oct 2013 04:46:00 -0700
 
-sdformat-prerelease (1.4.9-1~raring) raring; urgency=high
+sdformat (1.4.8-1~raring) raring; urgency=high
  
-  * Pre-release 1.4.9-1
+  * Release 1.4.8-1
  
- -- Steve Peters <scpeters@osrfoundation.org>  Wed, 01 Oct 2013 10:30:00 -0700
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 06 Sep 2013 11:11:11 -0700
 
+sdformat (1.4.7-1~raring) raring; urgency=high
+ 
+  * Release 1.4.7-1
+ 
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 22 Aug 2013 10:30:00 -0700
+
+sdformat (1.4.6-1~raring) raring; urgency=high
+ 
+  * Release 1.4.6-1
+ 
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 19 Aug 2013 15:00:00 -0700
+
+sdformat (1.4.5-1~raring) raring; urgency=high
+ 
+  * Release 1.4.5-1
+ 
+ -- Ian Chen <ichen@osrfoundation.org>  Wed, 23 Jul 2013 09:42:00 -0700
+
+sdformat (1.4.4-1~raring) raring; urgency=high
+ 
+  * Release 1.4.4-1
+ 
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Wed, 17 Jul 2013 09:42:00 -0700
+
+sdformat (1.4.3-1~raring) raring; urgency=high
+ 
+  * Release 1.4.3-1
+ 
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 17 Jul 2013 14:42:00 -0700
+
+sdformat (1.4.2-1~raring) raring; urgency=high
+ 
+  * Release 1.4.2-1
+ 
+ -- Brian Gerkey <gerkey@osrfoundation.org>  Tue, 09 Jul 2013 09:42:00 -0700
