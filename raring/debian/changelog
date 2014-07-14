@@ -1,3 +1,9 @@
+sdformat2-prerelease (2.0.1-3~raring) raring; urgency=low
+
+  * sdformat2-prerelease 2.0.1-3 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 14 Jul 2014 04:44:39 +0200
+
 sdformat2-prerelease (2.0.1-2~raring) raring; urgency=low
 
   * sdformat2-prerelease 2.0.1-2 release

@@ -55,7 +55,7 @@ Depends: libboost-system-dev,
          libboost-regex-dev,
          libboost-iostreams-dev,
          libtinyxml-dev,
-         libsdformat2 (= ${binary:Version}),
+         libsdformat2-prerelease (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Provides: libsdformat2-dev-provider
@@ -92,7 +92,7 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libsdformat2 (= ${binary:Version}),
+     libsdformat2-prerelease (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Debugging symbols
