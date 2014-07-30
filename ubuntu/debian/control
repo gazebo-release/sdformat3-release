@@ -73,7 +73,9 @@ Architecture: all
 Section: libdevel
 Depends: ${misc:Depends}
 Multi-Arch: foreign
-Conflicts: libsdformat2,
+Conflicts: libsdformat1,
+           libsdformat1-nightly,
+           libsdformat2,
            libsdformat2-nightly
 Description: Simulation Description Format (SDF) parser - SDF files
  SDF is an XML file format that describes environments, objects, and robots
