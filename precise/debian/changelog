@@ -1,6 +1,6 @@
-sdformat (2.0.1-1~precise) precise; urgency=medium
+sdformat2 (2.0.1-1~precise) precise; urgency=medium
 
-  * sdformat 2.0.1-1 release
+  * sdformat2 2.0.1-1 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Mon, 04 Aug 2014 12:45:37 -0700
 
