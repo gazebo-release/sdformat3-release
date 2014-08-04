@@ -10,7 +10,7 @@
         override_dh_strip 
 
 %:
-	dh $@ --parallel --with pkgkde-symbolshelper
+	dh $@ --parallel
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
