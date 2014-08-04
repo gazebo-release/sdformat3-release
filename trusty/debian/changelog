@@ -1,9 +1,3 @@
-sdformat2 (2.0.1-1~trusty) trusty; urgency=low
-
-  * sdformat2 2.0.1-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Fri, 11 JUl 2014 09:00:24 +0700
-
 sdformat (2.0.0-1~trusty) trusty; urgency=low
 
   * sdformat 2.0.0-1 release
