@@ -1,9 +1,3 @@
-sdformat2 (2.0.1-1~precise) precise; urgency=low
-
-  * sdformat2 2.0.1-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Mon, 04 Aug 2014 10:30:00 +0700
-
 sdformat (2.0.0-1~precise) precise; urgency=low
 
   * sdformat 2.0.0-1 release
