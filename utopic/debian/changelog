@@ -1,3 +1,9 @@
+sdformat2 (2.3.0-1~utopic) utopic; urgency=medium
+
+  * sdformat2 2.3.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 04 Feb 2015 02:26:51 +0100
+
 sdformat2 (2.2.1-1~utopic) utopic; urgency=medium
 
   * sdformat2 2.2.1-1 release
