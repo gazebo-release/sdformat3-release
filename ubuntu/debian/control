@@ -16,7 +16,8 @@ Build-Depends: cmake,
                doxygen,
                texlive-base,
                texlive-fonts-recommended,
-               texlive-latex-extra
+               texlive-latex-extra,
+               ruby | ruby-interpreter
 Vcs-Browser: https://bitbucket.org/osrf/sdformat2-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat2-release
 Homepage: http://sdformat.org
