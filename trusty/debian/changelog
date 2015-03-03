@@ -1,3 +1,9 @@
+sdformat2 (2.3.1-1~trusty) trusty; urgency=medium
+
+  * sdformat2 2.3.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 03 Mar 2015 08:52:55 -0800
+
 sdformat2 (2.3.0-1~trusty) trusty; urgency=medium
 
   * sdformat2 2.3.0-1 release

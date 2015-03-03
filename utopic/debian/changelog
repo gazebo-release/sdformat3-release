@@ -1,3 +1,9 @@
+sdformat2 (2.3.1-1~utopic) utopic; urgency=medium
+
+  * sdformat2 2.3.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 03 Mar 2015 08:52:56 -0800
+
 sdformat2 (2.3.0-1~utopic) utopic; urgency=medium
 
   * sdformat2 2.3.0-1 release
