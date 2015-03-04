@@ -1,23 +1,41 @@
-sdformat2-prerelease (2.0.1-5~trusty) trusty; urgency=low
+sdformat2 (2.3.1-1~trusty) trusty; urgency=medium
 
-  * sdformat2-prerelease 2.0.1-5 release
+  * sdformat2 2.3.1-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 23 Jul 2014 23:53:45 +0200
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 03 Mar 2015 08:52:55 -0800
 
-sdformat2-prerelease (2.0.1-4~trusty) trusty; urgency=low
+sdformat2 (2.3.0-1~trusty) trusty; urgency=medium
 
-  * sdformat2-prerelease 2.0.1-4 release
+  * sdformat2 2.3.0-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 14 Jul 2014 20:48:52 +0200
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 04 Feb 2015 02:26:51 +0100
 
-sdformat2-prerelease (2.0.1-3~trusty) trusty; urgency=low
+sdformat2 (2.2.1-1~trusty) trusty; urgency=medium
 
-  * sdformat2-prerelease 2.0.1-3 release
+  * sdformat2 2.2.1-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 14 Jul 2014 04:44:39 +0200
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 31 Dec 2014 11:00:00 -0800
 
-sdformat2-prerelease (2.0.1-2~trusty) trusty; urgency=low
+sdformat2 (2.2.0-1~trusty) trusty; urgency=medium
 
-  * sdformat2-prerelease 2.0.1-2 release
+  * sdformat2 2.2.0-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Sun, 13 Jul 2014 16:03:31 +0200
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 06 Nov 2014 14:37:46 -0800
+
+sdformat2 (2.1.0-1~trusty) trusty; urgency=medium
+
+  * sdformat2 2.1.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 29 Oct 2014 17:52:10 -0700
+
+sdformat2 (2.0.1-1~trusty) trusty; urgency=medium
+
+  * sdformat2 2.0.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 04 Aug 2014 12:45:37 -0700
+
+sdformat (2.0.0-1~trusty) trusty; urgency=low
+
+  * sdformat 2.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 11 Apr 2014 20:00:24 +0200
