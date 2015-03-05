@@ -33,7 +33,7 @@ Multi-Arch: same
 Conflicts: libsdformat1,
            libsdformat2,
            libsdformat1-nightly,
-           libsdformat3-prerelease, 
+           libsdformat2-prerelease, 
            libsdformat3-nightly,
            sdformat,
            sdformat-prerelease,
@@ -78,7 +78,7 @@ Multi-Arch: foreign
 Conflicts: libsdformat1,
            sdformat-sdf,
            libsdformat1-nightly,
-           libsdformat3-prerelease,
+           libsdformat2-prerelease,
            libsdformat3-nightly
 Description: Simulation Description Format (SDF) parser - SDF files
  SDF is an XML file format that describes environments, objects, and robots
