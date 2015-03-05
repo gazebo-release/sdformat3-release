@@ -1,3 +1,9 @@
+sdformat3-prerelease (3.0.0-3~trusty) trusty; urgency=medium
+
+  * sdformat3-prerelease 3.0.0-3 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 05 Mar 2015 02:21:03 +0100
+
 sdformat3-prerelease (3.0.0-2~trusty) trusty; urgency=medium
 
   * sdformat3-prerelease 3.0.0-2 release
