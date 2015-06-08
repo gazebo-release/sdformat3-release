@@ -1,3 +1,9 @@
+sdformat3-prerelease (3.0.5-1~utopic) utopic; urgency=medium
+
+  * sdformat3-prerelease 3.0.5-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 08 Jun 2015 16:12:14 -0700
+
 sdformat3-prerelease (3.0.4-1~utopic) utopic; urgency=medium
 
   * sdformat3-prerelease 3.0.4-1 release
