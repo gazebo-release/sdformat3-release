@@ -58,7 +58,7 @@ Depends: libboost-system-dev,
          libboost-regex-dev,
          libboost-iostreams-dev,
          libtinyxml-dev,
-         libignition-math2-dev
+         libignition-math2-dev,
          libsdformat3-prerelease (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
