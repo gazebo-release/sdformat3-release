@@ -17,7 +17,9 @@ Build-Depends: cmake,
                texlive-base,
                texlive-fonts-recommended,
                texlive-latex-extra,
-               ruby1.9.1
+               ruby1.9.1,
+               libignition-math2-dev
+
 Vcs-Browser: https://bitbucket.org/osrf/sdformat3-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat3-release
 Homepage: http://sdformat.org
@@ -57,6 +59,7 @@ Depends: libboost-system-dev,
          libboost-regex-dev,
          libboost-iostreams-dev,
          libtinyxml-dev,
+         libignition-math2-dev
          libsdformat3-prerelease (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
