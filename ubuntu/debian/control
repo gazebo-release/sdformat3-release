@@ -19,7 +19,6 @@ Build-Depends: cmake,
                texlive-latex-extra,
                ruby1.9.1,
                libignition-math2-dev
-
 Vcs-Browser: https://bitbucket.org/osrf/sdformat3-release
 Vcs-Hg: https://bitbucket.org/osrf/sdformat3-release
 Homepage: http://sdformat.org
