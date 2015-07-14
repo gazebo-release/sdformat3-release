@@ -1,3 +1,9 @@
+sdformat3-prerelease (3.0.6-1~utopic) utopic; urgency=medium
+
+  * sdformat3-prerelease 3.0.6-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 14 Jul 2015 20:36:17 +0200
+
 sdformat3-prerelease (3.0.5-1~utopic) utopic; urgency=medium
 
   * sdformat3-prerelease 3.0.5-1 release
