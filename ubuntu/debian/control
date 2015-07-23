@@ -79,7 +79,7 @@ Section: libdevel
 Depends: ${misc:Depends}
 Multi-Arch: foreign
 Conflicts: libsdformat1,
-           sdformat-sdf,
+           sdformat-sdf-prerelease,
            libsdformat1-nightly,
            libsdformat2-prerelease,
            libsdformat3-nightly,
