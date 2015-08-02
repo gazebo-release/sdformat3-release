@@ -1,3 +1,9 @@
+sdformat3 (3.1.0-1~trusty) trusty; urgency=medium
+
+  * sdformat3 3.1.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Sun, 02 Aug 2015 08:34:23 -0700
+
 sdformat3 (3.0.0-1~trusty) trusty; urgency=medium
 
   * sdformat3 3.0.0-1 release
