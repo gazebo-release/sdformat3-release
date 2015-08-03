@@ -1,3 +1,9 @@
+sdformat3 (3.1.1-1~vivid) vivid; urgency=medium
+
+  * sdformat3 3.1.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Mon, 03 Aug 2015 07:03:08 -0700
+
 sdformat3 (3.1.0-1~vivid) vivid; urgency=medium
 
   * sdformat3 3.1.0-1 release
